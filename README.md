@@ -16,5 +16,10 @@ You control “the red cell” with your user name above it. Grey cells are NPC 
 
 -Arrow keys to control your cell
 
+####Screenshots:
+#####Initial Screen:
+![](https://github.com/TunaButter/Agar-io-Rip-off/blob/master/screenshots/iniScreen.png)
+#####Game in Progress:
+![](https://github.com/TunaButter/Agar-io-Rip-off/blob/master/screenshots/inProgress.png)
  
 
