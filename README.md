@@ -14,15 +14,7 @@ Windows 7 (64bit)
 ####Game instructions:
 You control “the red cell” with your user name above it. Grey cells are NPC cells. Blue cells are other players. Your goal is to absorb any other cells (NPCs and other players) that are smaller enough than yours by trying to cover them with your cell. If you get too close to the “big guys”, you will shrink (if it’s an NPC cell), or get absorbed (if it’s another player) and lose the game. 
 
+-Arrow keys to control your cell
 
-
-
-
-
-
-Initial Screen:
- 
-
-Game in Progress: 
  
 
