@@ -5,9 +5,10 @@
 ####Development environment: 
 Windows 7 (64bit)
 ####Launching instruction: (for Windows)
-1. In “cmd”, navigate to the folder where “server.js” is
-2. Use "node server.js" command to set up the server
-3. Go to http://localhost:3000/index.html in your web browser (for multi-user testing, use another browser or ta to visit the address)
+1. In “cmd”, navigate to the folder where “app.js” is
+2a. Use "npm install" to install the required modules
+2b. Use "node app.js" command to set up the server
+3. Go to http://localhost:3000/index in your web browser (for multi-user testing, use another browser or ta to visit the address)
 4a. On the web page, enter a desired user name in the text field and press “Join Game” button to start the game.
 4b. Press “Leave Game” button or refresh the page to quit game.
 
