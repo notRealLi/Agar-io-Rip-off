@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>Canvas Size</title>
+     <script src="/public/scripts/jquery-1.11.3.js" ></script>
+     <script src="/node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+	 <script>
+		var socket = io.connect('http://localhost:3000/');
+	 </script>
+      <style> 
+         body {
+            background: #dddddd;
+         }
+		 
+		 canvas {
+		    margin: 20px;
+			/*important here for padding to be 0 for mouse calculations */
+            padding: 0px; 
+		 }
+
+		 .canvas {            
+            background: #ffffff;
+            border: thin inset #aaaaaa;
+         }
+		 
+         #canvas1 {
+         }
+		  
+ 
+      </style>
+   </head>
+
+  <body>
+    <center>
+    <canvas id='canvas1' class='canvas' width='800' height='600'>
+      Canvas not supported
+    </canvas>
+    <p>
+    <input type = "text"  id="name" name = "name"  value="player" size = "40" />
+    <input id = "button1" type="button" value="Join Game" onClick="addPlayer()">
+    <input id = "button2" type="button" value="Leave Game" onClick="removePlayer()">
+    <script src='/public/scripts/client.js'></script>
+    </center>
+  </body>
+</html>
