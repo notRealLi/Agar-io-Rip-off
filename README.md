@@ -3,7 +3,7 @@
 ####Purpose of program:
 -This app is a simple “Agar.io” rip-off.
 ####Development environment: 
-Windows 7 (64bit)
+Windows 10 (64bit)
 ####Launching instruction: (for Windows)
 1. In “cmd”, navigate to the folder where “app.js” is
 
